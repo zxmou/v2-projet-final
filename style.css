@@ -608,3 +608,26 @@ li{
     justify-content: center;
     padding-left: 10px;
 }
+/* Stylisation des boutons */
+button {
+    background-color: rgb(19, 18, 18); /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    padding: 2px 20px; /* Rembourrage intérieur du bouton */
+    border-radius: 6px; /* Coins arrondis */
+    border: none;
+    margin-right: 1px; /* Espacement entre les boutons */
+    cursor: pointer; /* Curseur de type main (pointer) au survol */
+    font-size: 16px; /* Taille de la police */
+    line-height: 2;
+}
+
+/* Stylisation des icônes */
+i {
+    font-size: 24px; /* Taille de l'icône */
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+    vertical-align: middle;
+}
+.btn :hover{
+    background-color: blue;
+
+}
